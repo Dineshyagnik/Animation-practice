@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+     
+     <title>Document</title>
+     <style>
+          div{height: 40px; width: 70px; background: red; 
+               margin: 2px; animation: txt 5s; position: relative;
+          animation-fill-mode: forwards;}
+.a{animation-timing-function: ease;}
+.b{animation-timing-function: ease-in;}
+.c{animation-timing-function: ease-in-out;}
+.d{animation-timing-function: linear;}
+.e{animation-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1)}
+@keyframes txt{
+     0%{left: 0px;}
+ 50%{left: 650px;}
+ 100%{left: 0px;}
+}
+
+     </style>
+</head>
+<body>
+ <div class="a"></div>  
+ <div class="b"></div> 
+ <div class="c"></div> 
+ <div class="d"></div> 
+ <div class="e"></div>   
+</body>
+</html>
